@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Quicksand', system-ui, sans-serif;
+  }
+  .font-pacifico {
+    font-family: 'Pacifico', cursive;
+  }
+}
+
+@layer utilities {
+  .bg-lilac-dark {
+    background-color: #23182e;
+  }
+  .text-lilac {
+    color: #e9d7fd;
+  }
+  .bg-lilac {
+    background-color: #b983ff;
+  }
+  .text-lilac-strong {
+    color: #b983ff;
+  }
+  .text-white-shadow {
+    text-shadow: 0 1px 8px #fff, 0 1px 1px #fff;
+  }
+}
+
+/* Custom styles can be added below */
