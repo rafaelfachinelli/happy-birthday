@@ -1,12 +1,64 @@
-# React + Vite
+# 🎂 Feliz Aniversário, Ju!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful, animated birthday page created with React, TypeScript, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 Beautiful dark theme with lilac accents
+- ✨ Smooth animations with Framer Motion
+- 📱 Mobile-first responsive design
+- 🎂 Heart confetti animation
+- 💜 Custom heart favicon
+- 📝 Character-by-character text animations
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Visit: [https://yourusername.github.io/happy-birthday/](https://yourusername.github.io/happy-birthday/)
+
+## 🛠️ Tech Stack
+
+- **React 19** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS v4** for styling
+- **Framer Motion** for animations
+- **GitHub Pages** for deployment
+
+## 📦 Installation & Development
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/happy-birthday.git
+cd happy-birthday
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+## 🎯 Deployment
+
+This project is configured for GitHub Pages deployment:
+
+1. Create a repository named `happy-birthday` on GitHub
+2. Push your code to the repository
+3. Run `npm run deploy` to deploy to GitHub Pages
+4. Enable GitHub Pages in your repository settings (Source: gh-pages branch)
+
+## 📝 Customization
+
+- Update the message in `src/App.tsx`
+- Modify colors in `src/index.css`
+- Change the favicon in `public/heart.svg`
+- Adjust animations in the Framer Motion components
+
+---
+
+Made with ❤️ for Ju's birthday celebration!

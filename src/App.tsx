@@ -41,7 +41,7 @@ export default function App() {
     document.documentElement.classList.add('dark');
   }
   return (
-    <div className="min-h-screen flex items-center justify-center bg-lilac-dark p-2 transition-colors duration-500">
+    <div className="min-h-[100dvh] flex items-center justify-center bg-lilac-dark p-2 transition-colors duration-500">
       <ConfettiHearts />
       <motion.div
         initial={{ opacity: 0, y: 40 }}
